@@ -4,10 +4,6 @@
 
 body {
   font-family: "Helvetica", sans-serif;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -19,7 +15,7 @@ body {
 .header {
   text-align: center;
   margin: 15px 0;
-  font-family: "Permanent Marker";
+  font-family: "Helvetica";
 }
 
 .enter-players {
@@ -117,16 +113,17 @@ body {
 
 .replay-btn {
   width: 25%;
-    padding: 10px 20px;
-    border: 2px solid #000;
-    border-radius: 5px;
-    outline: none;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-top: 12px;
-    word-spacing: 3px;
-    background-color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline: none;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 12px;
+  word-spacing: 3px;
+  background-color: #fff;
+  margin: 20px;
 }
 
 .replay-btn:hover,
@@ -156,4 +153,13 @@ body {
   .replay-btn {
     width: 50%;
   }
+}
+
+p#info {
+  text-transform: uppercase;
+}
+
+a {
+	color: rgb(0, 102, 255);
+	text-decoration: none;
 }
