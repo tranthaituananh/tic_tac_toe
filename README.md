@@ -1,7 +1,7 @@
 # Tic Tac Toe
 Tic Tac Toe game using JavaScript  
 
-## Synopsis
+## Features
 * Allow 2 players
 * When winner, cells highlight
 * Include button to reset board at any time during game
